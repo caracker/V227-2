@@ -1,0 +1,44 @@
+[INI]
+PROJECT=PRE_FILE
+[LINKS]
+~user\TIM16\TIM16.C
+~user\MOTOR\MOTOR.C
+~user\KEY\KEY.C
+~user\ADC\ADC.C
+~user\LED\LED.C
+~V227-2.C
+[HEAD]
+~extern.h
+[DEPEND]
+~$:INC_PDK\PMS132B.INC
+~V227-2.PRE
+~user\TIM16\TIM16.h
+~user\MOTOR\motor.h
+~head_extern.h
+~user\key\key.h
+~user\comparator\comparator.h
+~user\led\led.h
+~user\hot\hot.h
+~user\ADC\ADC.h
+~user\STOPSYS\STOPSYS.h
+~head.h
+[Ram_Break]
+Break1=No 0000
+Break2=No 0000
+Break3=No 0000
+Break4=No 0000
+[Stack_Break]
+Break1=Au 0000 00FF
+Break2=Au 0000 00FF
+Break3=Au 0000 00FF
+Break4=Au 0000 00FF
+Break5=Au 0000 00FF
+Break6=Au 0000 00FF
+Break7=Au 0000 00FF
+Break8=Au 0000 00FF
+[Ctrl_Break]
+Mark=51 1
+ICE=0 6 2 1388
+[PRE]
+~V227-2.PRJ
+~V227-2.PRE
